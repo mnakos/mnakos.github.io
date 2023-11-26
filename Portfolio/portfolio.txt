@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z5T4B1EGM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2Z5T4B1EGM');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marianna Nakos - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            order: 1;
+        }
+
+        nav {
+            order: 2;
+            align-self: flex-end;
+            margin: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        main {
+            order: 3;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .case-studies-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .case-study {
+            width: 48%;
+            margin-bottom: 20px;
+            background-color: #f5f5f5;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .footer {
+            order: 4;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .containerfooter {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .introduce,
+        .footerlinks {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .heading-2 {
+            color: #fff;
+        }
+
+        .heading3white {
+            color: #fff;
+        }
+
+        .buttonlink {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .buttonhoverheight {
+            height: 100%;
+        }
+
+        .button secondary {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        .baseline-black {
+            color: #000;
+        }
+
+        .footerlink {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .footerlink:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+    
+<body>
+
+<header>
+    <h1>Some coolio projects I have worked on so far🐏</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="https://mariannanakou93.medium.com/">Blog</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Projects</h2>
+
+    <div class="case-studies-container">
+        <div class="case-study">
+            <h3>AlexiaGuard: From sratch to a High Fidelity Prototype</h3>
+            <img src="case_study1_image.jpg" alt="Case Study 1">
+            <p>Description of Case Study 1. This is where you can provide more details about the project...</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+
+        <div class="case-study">
+            <h3>Case Study 2 Title</h3>
+            <img src="case_study2_image.jpg" alt="Case Study 2">
+            <p>Description of Case Study 2. Additional information about the second project...</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+
+        <div class="case-study">
+            <h3>Case Study 3 Title</h3>
+            <img src="case_study3_image.jpg" alt="Case Study 3">
+            <p>Description of Case Study 3. Details about the third project...</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+
+        <div class="case-study">
+            <h3>Case Study 4 Title</h3>
+            <img src="case_study4_image.jpg" alt="Case Study 4">
+            <p>Description of Case Study 4. Insights into the fourth project...</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </div>
+</main>
+
+<div class="footer">
+    <div class="containerfooter">
+        <div class="introduce">
+            <div class="heading-2">Want to introduce yourself?</div>
+            <a href="https://calendly.com/mariannanakos/" target="_blank" class="buttonlink w-inline-block">
+                <div class="buttonhoverheight">
+                    <div class="button secondary">
+                        <div class="baseline-black">Let’s talk</div>
+                        <img src="https://assets-global.website-files.com/6283c9d5b61b800362e52f94/6464dd7911a120afb6c2df71_ExtArrowBlack.png" loading="lazy" width="24" height="24" alt="" class="icon">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="footerlinks">
+            <div class="heading3white">...or stalk me some more, I’d do it too!</div>
+            <div class="tinycolumns">
+                <div class="tinycolumn">
+                    <div class="baseline-bold">On this site</div>
+                    <a href="index.html" aria-current="page" class="footerlink w-inline-block w--current">
+                        <div class="baselinewhite footerlink">About Me</div>
+                    </a>
+                    <a href="portfolio.html" class="footerlink w-inline-block">
+                        <div class="baselinewhite footerlink">Portfolio</div>
+                    </a>
+                    <a href="https://mariannanakou93.medium.com/" class="footerlink w-inline-block">
+                        <div class="baselinewhite footerlink">Blog</div>
+                    </a>
+                </div>
+                <div class="tinycolumn">
+                    <div class="baseline-bold">Elsewhere</div>
+                    <div class="baselinewhite footerlink">mariannanakou93@gmail.com</div>
+                    <a href="https://www.linkedin.com/in/marianna-n-a2a5a5105/" target="_blank" class="footerlink w-inline-block">
+                        <div class="baselinewhite footerlink">LinkedIn</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="baselineblack">Ⓒ 2023 Copyright</div>
+    </div>
+</div>
+
+</body>
+</html>
